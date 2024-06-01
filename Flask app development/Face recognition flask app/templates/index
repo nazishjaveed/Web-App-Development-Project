@@ -1,0 +1,20 @@
+{% extends 'base' %}
+
+{% block bodyblock %}
+
+
+<div class = 'container'>
+    <h3 class = 'display-6'>
+        Welcome to our Face Recognition App Project
+
+    </h3>
+
+
+    <br>
+    <p>
+        Content
+    </p>
+</div>
+
+
+{% endblock %}

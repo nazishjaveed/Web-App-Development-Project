@@ -1,0 +1,22 @@
+{% extends 'base' %}
+
+{% block bodyblock %}
+
+
+<div class="container">
+    <br><br>
+
+    <h3 class="display-8">Face Recognition Application</h3>
+
+    <p>
+        Gender Classification: This app is driven by data and a machine learning model. As soon 
+        as the user uploads its image, the machine learning model will recognize its gender and return a grayscale
+        image and an eigenface image.
+    </p>
+
+    <img src="/static/images/Icon3.jpg" class="img-fluid" alt="" ,width="600">
+    <a class="btn btn-outline-primary" href="/app/gender/">genderapp</a>
+
+</div>
+
+{% endblock %}

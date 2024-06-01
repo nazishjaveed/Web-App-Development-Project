@@ -6,7 +6,7 @@ import seaborn as sns
 
 # add title
 st.title('Data Analysis Application')
-st.subheader('This is a simple data analysis application created by @codanics')
+st.subheader('This is a simple data analysis application created by Nazish')
 
 # create a dropdown list to choose a dataset
 dataset_options = ['iris', 'titanic', 'tips', 'diamonds', 'flights', 'exercise', 'planets', 'car_crashes']
